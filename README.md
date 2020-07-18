@@ -40,4 +40,4 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Credits
 
-This project was forked from [Fx Qwerty](https://github.com/Slion/hwkbd), and referred to [8796.jp管理日誌(Gemini PDAのキーボードレイアウトを変更するやつ)](https://blog.8796.jp/8796kanri/2018/06/gemini-pda%E3%81%A7%E3%81%AF%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BE%BF%E5%88%A9.html).
+This project was forked from [Fx Qwerty](https://github.com/Slion/hwkbd), and referred to [8796.jp管理日誌(Gemini PDAのキーボードレイアウトを変更するやつ)](https://blog.8796.jp/8796kanri/2018/06/gemini-pda%E7%94%A8user-installable-keymaps%E3%81%AE%E3%81%BE%E3%81%A8%E3%82%81.html).
