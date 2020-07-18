@@ -1,4 +1,4 @@
-# Fx Qwerty
+# Fx Kanji Mod
 
 Various keyboard layouts for your F(x)tec Pro1 physical keyboard:
 
