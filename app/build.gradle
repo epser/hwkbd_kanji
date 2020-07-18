@@ -17,9 +17,9 @@ android {
     flavorDimensions "version"
 
     productFlavors {
-        FxTecPro1Qwerty {
+        FxTecPro1KanjiMod {
             dimension "version"
-            applicationIdSuffix ".FxTecPro1Qwerty"
+            applicationIdSuffix ".FxTecPro1KanjiMod"
         }
     }
 
