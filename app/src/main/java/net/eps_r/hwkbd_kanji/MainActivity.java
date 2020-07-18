@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
      * method settings) */
     private static final int semiModeHardKeybMinSDK = 24;
 
-    private String CHANGELOG = "https://github.com/slion/hwkbd/releases";
+    private String CHANGELOG = "https://github.com/epser/hwkbd_kanji/releases";
     private String WEBSITE;
 
     @Override

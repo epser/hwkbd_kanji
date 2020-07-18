@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Qwerty Keyboard Layouts for F(x)tec Pro1</string>
+    <string name="app_name">F(x)tec Pro1 Kanji Mod</string>
 
     <!-- -->
     <string name="pro1_qwerty_us">(Sym->漢字) F(x)tec Pro1 Qwerty - US</string>
@@ -9,13 +9,13 @@
 
     <string name="empty_layout">F(x)tec Pro1 Qwerty - Default</string>
 
-    <string name="title_activity_main" translatable="false">Fx Qwerty</string>
+    <string name="title_activity_main" translatable="false">Fx Kanji Mod</string>
 
-    <string name="configure_help_semi"><![CDATA[You can configure your physical keyboard layout in the \"Language & input\" section of Android Settings, by selecting the first item under the \"Physical keyboard\" heading there.]]></string>
-    <string name="configure_button_text_semi">Language &amp; input settings</string>
+    <string name="configure_help_semi"><![CDATA[\"言語と入力\" の \"物理キーボード\" 設定からキーボードレイアウトを変更できます。]]></string>
+    <string name="configure_button_text_semi">設定: 言語と入力</string>
 
-    <string name="configure_help_semi_imi"><![CDATA[You can configure your physical keyboard layout corresponding to each virtual keyboard in the Physical keyboard section of Android settings.]]></string>
-    <string name="configure_button_text_semi_imi">Physical keyboard settings</string>
+    <string name="configure_help_semi_imi"><![CDATA[\"物理キーボード\" の設定から、キーボードレイアウト（ソフトキーボードに渡されるキーコードのセット）を選ぶことができます。]]></string>
+    <string name="configure_button_text_semi_imi">設定: 物理キーボード</string>
 
     <string name="configure_help_direct">Open the physical keyboard layout configuration dialog:</string>
     <string name="configure_button_text_direct">Configure %s layout</string>
@@ -23,23 +23,23 @@
 
     <string name="configure_help_fail">No physical keyboards were found. If you are using a Moto Mod keyboard, open the slider now to allow layout setup.</string>
     <string name="configure_help_keyone">Note that Fx Qwerty does not work on Android 8 Oreo on BlackBerry phones!</string>
-    <string name="configure_help_keyone_url">https://slions.net/resources/fx-qwerty.7/</string>
+    <string name="configure_help_keyone_url">https://github.com/epser/hwkbd_kanji</string>
     <string name="more_information">More information</string>
 
     <string name="hide_help_direct"><![CDATA[In most cases you can also change your physical keyboard layout via Android Settings in Language & input => Physical keyboard. If you use that method and want to hide Fx Qwerty from the application launcher, press the below button:]]></string>
-    <string name="hide_help_semi"><![CDATA[If you want to hide Fx Qwerty from the application launcher, press the below button:]]></string>
-    <string name="hide_button_text">Hide Fx Qwerty from launcher</string>
-    <string name="hide_help_below">This screen will close and Fx Qwerty is removed from the launcher (a reboot may be required for the removal to take effect). This screen can be reached again by removing and reinstalling Fx Qwerty.</string>
+    <string name="hide_help_semi"><![CDATA[下のボタンを押すとアプリケーションランチャーからこの説明表示アプリが削除されます。キーボードレイアウトは削除されません。:]]></string>
+    <string name="hide_button_text">Hide from launcher</string>
+    <string name="hide_help_below">ボタンを押すとこの画面が終了し、ランチャーから削除されます（端末の再起動後に反映されることがあります）。もう一度見たい場合はアプリを削除したのち再インストールしてください。</string>
 
     <string name="device_name_priv_qwerty">BlackBerry QWERTY keypad</string>
     <string name="device_name_priv_azerty">BlackBerry AZERTY keypad</string>
     <string name="device_name_priv_qwertz">BlackBerry QWERTZ keypad</string>
     <string name="configure_help_below"><![CDATA[On the \"Choose keyboard layout\" dialog, press \"Setup keyboard layouts\" to open the full list of layouts. Select the Fx Qwerty layout appropriate for your device (Fx Qwerty layouts begin with \"F(x)tec Pro1\" in the alphabetical layout list) and then press the back button. Then select the Fx Qwerty layout you just added on the list.]]></string>
-    <string name="configure_help_below_imi"><![CDATA[The Fx Qwerty layouts begin with \"F(x)tec Pro1\" in the alphabetical layout list.]]></string>
+    <string name="configure_help_below_imi"><![CDATA[このレイアウトはパッケージ名 \"Fx Kanji Mod\" でインストールされています。]]></string>
 
-    <string name="action_website">Charts and more</string>
+    <string name="action_website">Url</string>
     <string name="action_changelog">Changelog</string>
-    <string name="main_text"><![CDATA[<a href="%s">Fx Qwerty</a> was based in the excellent <a href="https://android.onse.fi/finqwerty/">FinQwerty</a>. It provides several physical keyboard layouts to improve your F(x)tec Pro1 keyboard experience.]]></string>
+    <string name="main_text"><![CDATA[Kanji Mod was based in the excellent <a href="https://slions.net/resources/fx-qwerty.7/">Fx Qwerty</a> 0.3.0 and <a href="https://android.onse.fi/finqwerty/">FinQwerty</a>. It provides several physical keyboard layouts to improve your F(x)tec Pro1 keyboard experience.]]></string>
 
     <string name="priv_help2"><![CDATA[Note that if you have the BlackBerry Keyboard software keyboard enabled with a non-English software layout, the physical keyboard layout may be reset frequently. To avoid that, configure the software keyboard to use the English (US) layout via Settings => Language & input => BlackBerry Keyboard Settings => Input languages => English (United States) (and deselect all the other languages).]]></string>
 
