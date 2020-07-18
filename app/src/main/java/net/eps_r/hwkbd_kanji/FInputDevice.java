@@ -1,19 +1,17 @@
 // SPDX-License-Identifier: Apache-2.0
 
-package net.slions.hwkbd;
+package net.eps_r.hwkbd_kanji;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.hardware.input.InputManager;
 import android.os.Build;
 import android.os.Parcelable;
-import android.util.ArrayMap;
 import android.util.Log;
 import android.view.InputDevice;
 
 import java.lang.reflect.Constructor;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

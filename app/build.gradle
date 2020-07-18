@@ -9,9 +9,9 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 37
-        versionName "0.3.0"
-        applicationId "net.slions.hwkbd"
+        versionCode 1
+        versionName "0.3.0mod"
+        applicationId "net.eps_r.hwkbd_kanji"
     }
 
     flavorDimensions "version"

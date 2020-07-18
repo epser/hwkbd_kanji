@@ -1,11 +1,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
-package net.slions.hwkbd;
+package net.eps_r.hwkbd_kanji;
 
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.content.res.Resources;
 import android.hardware.input.InputManager;
 import android.net.Uri;
 import android.os.Build;
@@ -13,7 +12,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.provider.Settings;
 import android.text.Html;
-import android.text.Layout;
 import android.text.method.LinkMovementMethod;
 import android.util.Pair;
 import android.view.Menu;

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-package net.slions.hwkbd;
+package net.eps_r.hwkbd_kanji;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
