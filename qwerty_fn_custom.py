@@ -280,7 +280,7 @@ QWERTY_FN_CUSTOM = [
     },
 # ROW 5 ###############################################################
     {    
-        REPL_KEYCODE: "ASSIST", #SYM
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
         REPLACE: [
             # Open Symbol dialog
             (FN, r"'\uef01'"),

@@ -286,7 +286,7 @@ QWERTY_FN_PRINTED = [
     },
 # ROW 5 ###############################################################
     {    
-        REPL_KEYCODE: "ASSIST", #SYM
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
         REPLACE: [
         ]
     },    

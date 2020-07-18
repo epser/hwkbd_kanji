@@ -300,7 +300,7 @@ REPLACE_FX_QWERTY = [
     },
     # ROW 5 ###############################################################
     {    
-        REPL_KEYCODE: "ASSIST", #SYM
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
         REPLACE: [
             (RALT, r"replace POWER"),
         ]

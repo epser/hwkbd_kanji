@@ -25,7 +25,8 @@ map key 158 ESCAPE
 # so use as back/wakeup for now
 #map key 249 WAKEUP
 # SYM remap
-map key 249 ASSIST
+#map key 249 ASSIST
+map key 249 ZENKAKU_HANKAKU
 
 # Trying to remap Hall sensor scan code
 # Not working

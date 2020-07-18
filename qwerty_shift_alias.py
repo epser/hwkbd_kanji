@@ -279,7 +279,7 @@ QWERTY_SHIFT_ALIAS = [
     },
 # ROW 5 ###############################################################
     {    
-        REPL_KEYCODE: "ASSIST", #SYM
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
         REPLACE: [
         ]
     },    

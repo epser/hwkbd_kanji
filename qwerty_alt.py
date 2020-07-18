@@ -293,7 +293,7 @@ QWERTY_ALT = [
     },
 # ROW 5 ###############################################################
     {    
-        REPL_KEYCODE: "ASSIST", #SYM
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
         REPLACE: [
             # Consume for digit characters and output corresponding unicode 
             (LALT, r"'\uef00'"),
