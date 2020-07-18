@@ -9,7 +9,7 @@ Various keyboard layouts for your F(x)tec Pro1 physical keyboard:
 
 See the based [Fx Qwerty website](https://slions.net/resources/fx-qwerty.7/) for layout maps *and I changed `Sym` to `半角/全角漢字(ZENKAKU_HANKAKU)`.*
 
-**(Affect: `Power(Alt + Sym)`) is not working)**
+**(Affect: `Power(Fx + Sym)`) is not working)**
 
 The layouts are provided via the Android standard layouts mechanism and are selectable in Android settings - no root required.
 
