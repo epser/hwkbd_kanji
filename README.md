@@ -1,5 +1,7 @@
 # Fx Kanji Mod
 
+![image](https://user-images.githubusercontent.com/8068831/87861172-adf81380-c97e-11ea-91d9-b6f35bb55680.png)
+
 Various keyboard layouts for your F(x)tec Pro1 physical keyboard:
 
 - (Sym->漢字) F(x)tec Pro1 Qwerty - US
