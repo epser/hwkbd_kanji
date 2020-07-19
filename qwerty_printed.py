@@ -383,8 +383,18 @@ REPLACE_PRINTED_QWERTY = [
         ]
     },
 # ROW 5 ###############################################################
-    {    
-        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
+    {
+        REPL_KEYCODE: "SYM", #SYM
+        REPLACE: [
+        ]
+    },
+    {
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM_ALTERNATE
+        REPLACE: [
+        ]
+    },
+    {
+        REPL_KEYCODE: "LANGUAGE_SWITCH", #SYM_ALTERNATE
         REPLACE: [
         ]
     },    

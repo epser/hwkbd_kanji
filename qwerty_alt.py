@@ -292,14 +292,28 @@ QWERTY_ALT = [
         ]
     },
 # ROW 5 ###############################################################
-    {    
-        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
+    {
+        REPL_KEYCODE: "SYM", #SYM
+        REPLACE: [
+            # Consume for digit characters and output corresponding unicode
+            (LALT, r"'\uef00'"),
+        ]
+    },
+    {
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM_ALTERNATE
         REPLACE: [
             # Consume for digit characters and output corresponding unicode 
             (LALT, r"'\uef00'"),
         ]
-    },    
-    {    
+    },
+    {
+        REPL_KEYCODE: "LANGUAGE_SWITCH", #SYM_ALTERNATE
+        REPLACE: [
+            # Consume for digit characters and output corresponding unicode
+            (LALT, r"'\uef00'"),
+        ]
+    },
+    {
         REPL_KEYCODE: "SPACE",
         REPLACE: [
         ]

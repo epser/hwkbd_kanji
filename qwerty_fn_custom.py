@@ -279,14 +279,28 @@ QWERTY_FN_CUSTOM = [
         ]
     },
 # ROW 5 ###############################################################
-    {    
-        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
+    {
+        REPL_KEYCODE: "SYM", #SYM
         REPLACE: [
             # Open Symbol dialog
             (FN, r"'\uef01'"),
         ]
-    },    
-    {    
+    },
+    {
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM_ALTERNATE
+        REPLACE: [
+            # Open Symbol dialog
+            (FN, r"'\uef01'"),
+        ]
+    },
+    {
+        REPL_KEYCODE: "LANGUAGE_SWITCH", #SYM_ALTERNATE
+        REPLACE: [
+            # Open Symbol dialog
+            (FN, r"'\uef01'"),
+        ]
+    },
+    {
         REPL_KEYCODE: "SPACE",
         REPLACE: [
             # Easy way to turn keyboard backlight back on

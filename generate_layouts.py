@@ -57,12 +57,22 @@ GENERATED_LAYOUTS = [
     },
     {
         # Process our US template 
-        # That the basic US layout
+        # That the basic US layout with ZENKAKU_HANKAKU
         INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: CLEANUP_TEMPLATE,  
-    },    
+        REPLACE: CLEANUP_TEMPLATE,
+        ADD: REMAP_ZENKAKU
+    },
+    {
+        # Process our US template
+        # That the basic US layout with LANGUAGE_SWITCH
+        INPUT: "pro1_qwerty_us_template.kcm",
+        OUTPUT: "pro1_qwerty_us_lang.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: CLEANUP_TEMPLATE,
+        ADD: REMAP_LANGUAGE
+    },
     {
         # Swapping alt and fn
         INPUT: "pro1_qwerty_us.kcm",
@@ -77,7 +87,17 @@ GENERATED_LAYOUTS = [
         INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
         OUTPUT: "pro1_qwerty_us_fn_tab.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_TAB_FIX,  
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_ZENKAKU
+    },
+    {
+        # Somehow modifying the same line twice in the same run does not work.
+        # So we had to take an extra step to patch our TAB
+        INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
+        OUTPUT: "pro1_qwerty_us_fn_tab_lang.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_LANGUAGE
     },
     {
         # Process our US template adding shift alias
@@ -85,7 +105,17 @@ GENERATED_LAYOUTS = [
         INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,  
+        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,
+        ADD: REMAP_ZENKAKU
+    },
+    {
+        # Process our US template adding shift alias
+        # That's enabling the use of the Shift key to access most Fn characters
+        INPUT: "pro1_qwerty_us_template.kcm",
+        OUTPUT: "pro1_qwerty_us_shift_alias_lang.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,
+        ADD: REMAP_LANGUAGE
     },
     {
         # Swapping alt and fn
@@ -101,7 +131,17 @@ GENERATED_LAYOUTS = [
         INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_TAB_FIX,  
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_ZENKAKU
+    },
+    {
+        # Somehow modifying the same line twice in the same run does not work.
+        # So we had to take an extra step to patch our TAB
+        INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
+        OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab_lang.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_LANGUAGE
     },
 
 

@@ -6,6 +6,16 @@ REMAP_FX = r"""
 map key 172 ALT_RIGHT
 """
 
+REMAP_ZENKAKU = r"""
+# Remap Sym Key
+map key 249 ZENKAKU_HANKAKU
+"""
+
+REMAP_LANGUAGE = r"""
+#Remap Sym Key
+map key 249 LANGUAGE_SWITCH
+"""
+
 REPLACE_FX_QWERTY = [
     {
         REPL_KEYCODE: "1",
@@ -300,12 +310,24 @@ REPLACE_FX_QWERTY = [
     },
     # ROW 5 ###############################################################
     {    
-        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
+        REPL_KEYCODE: "SYM",
         REPLACE: [
             (RALT, r"replace POWER"),
         ]
-    },    
-    {    
+    },
+    {
+        REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM_ALTERNATE
+        REPLACE: [
+            (RALT, r"replace POWER"),
+        ]
+    },
+    {
+        REPL_KEYCODE: "LANGUAGE_SWITCH", #SYM_ALTERNATE
+        REPLACE: [
+            (RALT, r"replace POWER"),
+        ]
+    },
+    {
         REPL_KEYCODE: "SPACE",
         REPLACE: [
             # Fx + SPACE launch Web Browser

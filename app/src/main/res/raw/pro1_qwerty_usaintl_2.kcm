@@ -25,10 +25,9 @@ map key 158 ESCAPE
 # so use as back/wakeup for now
 #map key 249 WAKEUP
 # SYM remap
-#map key 249 ASSIST
-map key 249 ZENKAKU_HANKAKU
+map key 249 ASSIST
 
-key ZENKAKU_HANKAKU {
+key ASSIST {
     ralt: replace POWER
     # Keyboard backlight on
     fn: replace F6
