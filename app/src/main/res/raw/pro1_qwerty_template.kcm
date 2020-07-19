@@ -656,7 +656,7 @@ key DPAD_UP {
 
 # ROW 5 ###############################################################
 
-key ASSIST {
+key ZENKAKU_HANKAKU {
     base:           $base$
     fn:             $fn$
     shift:          $shift$
