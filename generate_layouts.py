@@ -53,55 +53,92 @@ GENERATED_LAYOUTS = [
                     QWERTY_FN_CUSTOM+
                     REPLACE_FX_QWERTY+
                     QWERTY_ALT,
-        ADD: REMAP_FX                    
     },
     {
         # Process our US template 
-        # That the basic US layout
+        # That the basic US layout with ZENKAKU_HANKAKU
         INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: CLEANUP_TEMPLATE,  
-    },    
+        REPLACE: CLEANUP_TEMPLATE,
+        ADD: REMAP_FX_TO_RALT
+    },
+    {
+        # Process our US template
+        # That the basic US layout with ZENKAKU_HANKAKU
+        INPUT: "pro1_qwerty_us_template.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: CLEANUP_TEMPLATE,
+        ADD: REMAP_FX_TO_LMETA
+    },
     {
         # Swapping alt and fn
-        INPUT: "pro1_qwerty_us.kcm",
+        INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us_fn_tab_tmp.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_ALT_FN,  
-        ADD: REMAP_SWAP_ALT_FN                    
+        REPLACE: CLEANUP_TEMPLATE + SWAP_ALT_FN,
     },
     {
         # Somehow modifying the same line twice in the same run does not work.
         # So we had to take an extra step to patch our TAB
         INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
-        OUTPUT: "pro1_qwerty_us_fn_tab.kcm", 
-        IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_TAB_FIX,  
+        OUTPUT: "pro1_qwerty_us_fn_tab.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_RALT
+    },
+    {
+        # Somehow modifying the same line twice in the same run does not work.
+        # So we had to take an extra step to patch our TAB
+        INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_fn_tab.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_LMETA
     },
     {
         # Process our US template adding shift alias
         # That's enabling the use of the Shift key to access most Fn characters
         INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias.kcm", 
-        IS_SOURCE_GENERATED: True,               
-        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,  
+        IS_SOURCE_GENERATED: True,
+        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,
+        ADD: REMAP_FX_TO_RALT
+    },
+    {
+        # Process our US template adding shift alias
+        # That's enabling the use of the Shift key to access most Fn characters
+        INPUT: "pro1_qwerty_us_template.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_shift_alias.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,
+        ADD: REMAP_FX_TO_LMETA
     },
     {
         # Swapping alt and fn
-        INPUT: "pro1_qwerty_us_shift_alias.kcm",
+        INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm", 
-        IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_ALT_FN,  
-        ADD: REMAP_SWAP_ALT_FN                    
+        IS_SOURCE_GENERATED: True,
+        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE + SWAP_ALT_FN,
     },
     {
         # Somehow modifying the same line twice in the same run does not work.
         # So we had to take an extra step to patch our TAB
         INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
-        OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab.kcm", 
-        IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_TAB_FIX,  
+        OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_RALT
+    },
+    {
+        # Somehow modifying the same line twice in the same run does not work.
+        # So we had to take an extra step to patch our TAB
+        INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_TAB_FIX,
+        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_LMETA
     },
 
 

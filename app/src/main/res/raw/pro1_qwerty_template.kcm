@@ -59,6 +59,7 @@ key ESCAPE {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 1 {
@@ -71,6 +72,7 @@ key 1 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 2 {
@@ -83,6 +85,7 @@ key 2 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 3 {
@@ -95,6 +98,7 @@ key 3 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 4 {
@@ -107,6 +111,7 @@ key 4 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 5 {
@@ -119,6 +124,7 @@ key 5 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 6 {
@@ -131,6 +137,7 @@ key 6 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 7 {
@@ -143,6 +150,7 @@ key 7 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 8 {
@@ -155,6 +163,7 @@ key 8 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 9 {
@@ -167,6 +176,7 @@ key 9 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key 0 {
@@ -179,6 +189,7 @@ key 0 {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key MINUS {
@@ -191,6 +202,7 @@ key MINUS {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key EQUALS {
@@ -203,6 +215,7 @@ key EQUALS {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 # ROW 2 ###############################################################
@@ -217,6 +230,7 @@ key TAB {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key GRAVE {
@@ -229,6 +243,7 @@ key GRAVE {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key Q {
@@ -241,6 +256,7 @@ key Q {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key W {
@@ -253,6 +269,7 @@ key W {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key E {
@@ -265,6 +282,7 @@ key E {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key R {
@@ -277,6 +295,7 @@ key R {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key T {
@@ -289,6 +308,7 @@ key T {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key Y {
@@ -301,6 +321,7 @@ key Y {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key U {
@@ -313,6 +334,7 @@ key U {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key I {
@@ -325,6 +347,7 @@ key I {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key O {
@@ -337,6 +360,7 @@ key O {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key P {
@@ -349,6 +373,7 @@ key P {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key SEMICOLON {
@@ -361,6 +386,7 @@ key SEMICOLON {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 # ROW 3 ###############################################################
@@ -375,6 +401,7 @@ key BACKSLASH {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key A {
@@ -387,6 +414,7 @@ key A {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key S {
@@ -399,6 +427,7 @@ key S {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key D {
@@ -411,6 +440,7 @@ key D {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key F {
@@ -423,6 +453,7 @@ key F {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key G {
@@ -435,6 +466,7 @@ key G {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key H {
@@ -447,6 +479,7 @@ key H {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key J {
@@ -459,6 +492,7 @@ key J {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key K {
@@ -471,6 +505,7 @@ key K {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key L {
@@ -483,6 +518,7 @@ key L {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key APOSTROPHE {
@@ -495,6 +531,20 @@ key APOSTROPHE {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
+}
+
+key SLASH {
+    label:                              '\''
+    base:           $base$
+    fn:             $fn$
+    shift:          $shift$
+    capslock:       $capslock$
+    lalt:           $lalt$
+    ralt:           $ralt$
+    shift+lalt:     $shift+lalt$
+    capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key ENTER {
@@ -506,6 +556,7 @@ key ENTER {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 # ROW 4 ###############################################################
@@ -520,6 +571,7 @@ key LEFT_BRACKET {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key RIGHT_BRACKET {
@@ -532,6 +584,7 @@ key RIGHT_BRACKET {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key Z {
@@ -544,6 +597,7 @@ key Z {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key X {
@@ -556,6 +610,7 @@ key X {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key C {
@@ -568,7 +623,7 @@ key C {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
-
+    lmeta:          $lmeta$
 }
 
 key V {
@@ -581,6 +636,7 @@ key V {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key B {
@@ -593,6 +649,7 @@ key B {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key N {
@@ -605,6 +662,7 @@ key N {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key M {
@@ -617,6 +675,7 @@ key M {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key COMMA {
@@ -629,6 +688,7 @@ key COMMA {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key PERIOD {
@@ -641,6 +701,7 @@ key PERIOD {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key DPAD_UP {
@@ -652,6 +713,7 @@ key DPAD_UP {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 # ROW 5 ###############################################################
@@ -665,6 +727,7 @@ key ZENKAKU_HANKAKU {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key SPACE {
@@ -677,6 +740,7 @@ key SPACE {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key DPAD_LEFT {
@@ -688,6 +752,7 @@ key DPAD_LEFT {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key DPAD_DOWN {
@@ -699,6 +764,7 @@ key DPAD_DOWN {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 
 key DPAD_RIGHT {
@@ -710,5 +776,6 @@ key DPAD_RIGHT {
     ralt:           $ralt$
     shift+lalt:     $shift+lalt$
     capslock+lalt:  $capslock+lalt$
+    lmeta:          $lmeta$
 }
 

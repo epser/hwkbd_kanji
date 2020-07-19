@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 1
-        versionName "0.3.0mod"
+        versionCode 2
+        versionName "0.3.0mod2"
         applicationId "net.eps_r.hwkbd_kanji"
     }
 
