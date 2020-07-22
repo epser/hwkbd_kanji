@@ -2,7 +2,7 @@
 
 Various keyboard layouts for your F(x)tec Pro1 physical keyboard with `半角/全角漢字(ZENKAKU_HANKAKU)`:
 
-![image](https://user-images.githubusercontent.com/8068831/87861172-adf81380-c97e-11ea-91d9-b6f35bb55680.png)
+![f(x)tec-pro1-qwerty-us](https://user-images.githubusercontent.com/8068831/88239632-e752bb00-ccbf-11ea-8d84-bde6825fa5d9.png)
 
 - Fx Qwerty Compatible
 - Fx Qwerty Compatible - Fn+Tab
