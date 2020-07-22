@@ -43,102 +43,138 @@ SWAP_TAB_FIX = [
     },
 ]
 
+# template - us_ralt_template    - us_ralt_normal         - fn_tab_swap
+#                                - us_ralt_shift_alias    - fn_tab_swap
+#          - us_metakey_template - us_metakey_normal      - fn_tab_swap
+#                                - us_metakey_shift_alias - fn_tab_swap
+
 GENERATED_LAYOUTS = [
     {
-        # Process our QWERTY template
+        # Process Fx Qwerty template
         INPUT: "pro1_qwerty_template.kcm",
-        OUTPUT: "pro1_qwerty_us_template.kcm",                
+        OUTPUT: "pro1_qwerty_us_template.kcm",
         REPLACE:    REPLACE_PRINTED_QWERTY+
                     QWERTY_FN_PRINTED+
                     QWERTY_FN_CUSTOM+
                     REPLACE_FX_QWERTY+
                     QWERTY_ALT,
-    },
-    {
-        # Process our US template 
-        # That the basic US layout with ZENKAKU_HANKAKU
-        INPUT: "pro1_qwerty_us_template.kcm",
-        OUTPUT: "pro1_qwerty_us.kcm", 
-        IS_SOURCE_GENERATED: True,               
-        REPLACE: CLEANUP_TEMPLATE,
         ADD: REMAP_FX_TO_RALT
     },
     {
-        # Process our US template
-        # That the basic US layout with ZENKAKU_HANKAKU
+        # Process MetaKey QWERTY template
+        INPUT: "pro1_qwerty_template.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_template.kcm",
+        REPLACE:    REPLACE_PRINTED_QWERTY+
+                    QWERTY_FN_PRINTED+
+                    QWERTY_FN_CUSTOM+
+                    REPLACE_FX_META_QWERTY+
+                    QWERTY_ALT,
+        ADD: REMAP_FX_TO_LMETA
+    },
+
+    {
+        # Process Fx Qwerty US template
+        # That the original Fx Qwerty layout
         INPUT: "pro1_qwerty_us_template.kcm",
+        OUTPUT: "pro1_qwerty_us.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: CLEANUP_TEMPLATE,
+    },
+    {
+        # Process MetaKey US template
+        # That the extend layout
+        INPUT: "metakey_pro1_qwerty_us_template.kcm",
         OUTPUT: "metakey_pro1_qwerty_us.kcm",
         IS_SOURCE_GENERATED: True,
         REPLACE: CLEANUP_TEMPLATE,
-        ADD: REMAP_FX_TO_LMETA
     },
     {
-        # Swapping alt and fn
-        INPUT: "pro1_qwerty_us_template.kcm",
+        # Swapping alt and fn for Fx Qwerty
+        INPUT: "pro1_qwerty_us.kcm",
         OUTPUT: "pro1_qwerty_us_fn_tab_tmp.kcm", 
         IS_SOURCE_GENERATED: True,               
-        REPLACE: CLEANUP_TEMPLATE + SWAP_ALT_FN,
+        REPLACE: SWAP_ALT_FN,
+        ADD: REMAP_SWAP_ALT_FN
     },
     {
+        # Swapping alt and fn for MetaKey
+        INPUT: "metakey_pro1_qwerty_us.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_fn_tab_tmp.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_ALT_FN,
+        ADD: REMAP_SWAP_ALT_FN
+    },
+    {
+        # Fx Qwerty
         # Somehow modifying the same line twice in the same run does not work.
         # So we had to take an extra step to patch our TAB
         INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
         OUTPUT: "pro1_qwerty_us_fn_tab.kcm",
         IS_SOURCE_GENERATED: True,
         REPLACE: SWAP_TAB_FIX,
-        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_RALT
     },
     {
+        # MetaKey
         # Somehow modifying the same line twice in the same run does not work.
         # So we had to take an extra step to patch our TAB
-        INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
+        INPUT: "metakey_pro1_qwerty_us_fn_tab_tmp.kcm",
         OUTPUT: "metakey_pro1_qwerty_us_fn_tab.kcm",
         IS_SOURCE_GENERATED: True,
         REPLACE: SWAP_TAB_FIX,
-        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_LMETA
     },
     {
+        # Fx Qwerty
         # Process our US template adding shift alias
         # That's enabling the use of the Shift key to access most Fn characters
         INPUT: "pro1_qwerty_us_template.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias.kcm", 
         IS_SOURCE_GENERATED: True,
         REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,
-        ADD: REMAP_FX_TO_RALT
     },
     {
+        # MetaKey
         # Process our US template adding shift alias
         # That's enabling the use of the Shift key to access most Fn characters
-        INPUT: "pro1_qwerty_us_template.kcm",
+        INPUT: "metakey_pro1_qwerty_us_template.kcm",
         OUTPUT: "metakey_pro1_qwerty_us_shift_alias.kcm",
         IS_SOURCE_GENERATED: True,
         REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE,
-        ADD: REMAP_FX_TO_LMETA
     },
     {
+        # Fx Qwerty
         # Swapping alt and fn
-        INPUT: "pro1_qwerty_us_template.kcm",
+        INPUT: "pro1_qwerty_us_shift_alias.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm", 
         IS_SOURCE_GENERATED: True,
-        REPLACE: QWERTY_SHIFT_ALIAS + CLEANUP_TEMPLATE + SWAP_ALT_FN,
+        REPLACE: SWAP_ALT_FN,
+        ADD: REMAP_SWAP_ALT_FN
     },
     {
+        # MetaKey
+        # Swapping alt and fn
+        INPUT: "metakey_pro1_qwerty_us_shift_alias.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
+        IS_SOURCE_GENERATED: True,
+        REPLACE: SWAP_ALT_FN,
+        ADD: REMAP_SWAP_ALT_FN
+    },
+    {
+        # Fx Qwerty
         # Somehow modifying the same line twice in the same run does not work.
         # So we had to take an extra step to patch our TAB
         INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
         OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab.kcm",
         IS_SOURCE_GENERATED: True,
         REPLACE: SWAP_TAB_FIX,
-        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_RALT
     },
     {
+        # MetaKey
         # Somehow modifying the same line twice in the same run does not work.
         # So we had to take an extra step to patch our TAB
-        INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
+        INPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
         OUTPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab.kcm",
         IS_SOURCE_GENERATED: True,
         REPLACE: SWAP_TAB_FIX,
-        ADD: REMAP_SWAP_ALT_FN + REMAP_FX_TO_LMETA
     },
 
 

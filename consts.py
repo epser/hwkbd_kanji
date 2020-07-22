@@ -32,6 +32,7 @@ BASE = "$base$"
 SHIFT_LALT = "$shift+lalt$"
 CAPSLOCK_LALT = "$capslock+lalt$"
 LMETA = "$lmeta$"
+FN_CTRL = "$fn+ctrl$"
 
 CLEANUP_TEMPLATE = [
     ("    base:           $base$\n",""),
@@ -43,6 +44,7 @@ CLEANUP_TEMPLATE = [
     ("    shift+lalt:     $shift+lalt$\n",""),
     ("    capslock+lalt:  $capslock+lalt$\n",""),
     ("    lmeta:          $lmeta$\n", ""),
+    ("    fn+ctrl:        $fn+ctrl$\n", ""),
 ]
 
 
