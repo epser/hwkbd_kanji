@@ -13,7 +13,7 @@ See the based [Fx Qwerty website](https://slions.net/resources/fx-qwerty.7/) for
 
 and more variants, Meta-key(Fx Logo) combinations:
 
-![f(x)-kanji-mod-with-meta-key](https://user-images.githubusercontent.com/8068831/87876042-2fe44d00-ca10-11ea-8d2d-895f94ec7f3b.png)
+![f(x)-kanji-mod-with-meta-key](https://user-images.githubusercontent.com/8068831/88232607-22012700-ccb1-11ea-8b0a-badc4ab63f88.png)
 
 - Fx Qwerty with Meta-Key
 - Fx Qwerty with Meta-Key - Fn+Tab
