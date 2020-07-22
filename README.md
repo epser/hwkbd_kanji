@@ -1,17 +1,24 @@
 # Fx Kanji Mod
 
+Various keyboard layouts for your F(x)tec Pro1 physical keyboard with `半角/全角漢字(ZENKAKU_HANKAKU)`:
+
 ![image](https://user-images.githubusercontent.com/8068831/87861172-adf81380-c97e-11ea-91d9-b6f35bb55680.png)
 
-Various keyboard layouts for your F(x)tec Pro1 physical keyboard:
+- Fx Qwerty Compatible
+- Fx Qwerty Compatible - Fn+Tab
+- Fx Qwerty Compatible - Shift as Fn
+- Fx Qwerty Compatible - Shift as Fn - Fn+Tab
 
-- (Sym->漢字) F(x)tec Pro1 Qwerty - US
-- (Sym->漢字) F(x)tec Pro1 Qwerty - US - Fn+Tab
-- (Sym->漢字) F(x)tec Pro1 Qwerty - US - Shift as Fn
-- (Sym->漢字) F(x)tec Pro1 Qwerty - US - Shift as Fn - Fn+Tab
+See the based [Fx Qwerty website](https://slions.net/resources/fx-qwerty.7/) for layout maps.
 
-See the based [Fx Qwerty website](https://slions.net/resources/fx-qwerty.7/) for layout maps *and I changed `Sym` to `半角/全角漢字(ZENKAKU_HANKAKU)`.*
+and more variants, Meta-key(Fx Logo) combinations:
 
-**(Affect: `Power(Fx + Sym)`) is not working)**
+![f(x)-kanji-mod-with-meta-key](https://user-images.githubusercontent.com/8068831/87876042-2fe44d00-ca10-11ea-8d2d-895f94ec7f3b.png)
+
+- Fx Qwerty with Meta-Key
+- Fx Qwerty with Meta-Key - Fn+Tab
+- Fx Qwerty with Meta-Key - Shift as Fn
+- Fx Qwerty with Meta-Key - Shift as Fn - Fn+Tab
 
 The layouts are provided via the Android standard layouts mechanism and are selectable in Android settings - no root required.
 
