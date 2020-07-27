@@ -2,7 +2,7 @@
 
 Various keyboard layouts for your F(x)tec Pro1 physical keyboard with `半角/全角漢字(ZENKAKU_HANKAKU)`:
 
-![f(x)tec-pro1-qwerty-us](https://user-images.githubusercontent.com/8068831/88239632-e752bb00-ccbf-11ea-8d84-bde6825fa5d9.png)
+![f(x)-kanji-mod-based-fx-qwerty](https://user-images.githubusercontent.com/8068831/88495105-db366880-cff3-11ea-859d-e9ea4fd1ab01.png)
 
 - Fx Qwerty Compatible
 - Fx Qwerty Compatible - Fn+Tab
@@ -13,7 +13,7 @@ See the based [Fx Qwerty website](https://slions.net/resources/fx-qwerty.7/) for
 
 and more variants, Meta-key(Fx Logo) combinations:
 
-![f(x)-kanji-mod-with-meta-key](https://user-images.githubusercontent.com/8068831/88232607-22012700-ccb1-11ea-8b0a-badc4ab63f88.png)
+![f(x)-kanji-mod-with-metakey](https://user-images.githubusercontent.com/8068831/88495259-5b5cce00-cff4-11ea-9e63-707d9d9be144.png)
 
 - Fx Qwerty with Meta-Key
 - Fx Qwerty with Meta-Key - Fn+Tab
