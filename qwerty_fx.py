@@ -317,6 +317,7 @@ REPLACE_FX_QWERTY = [
         REPL_KEYCODE: "ZENKAKU_HANKAKU", #SYM
         REPLACE: [
             (RALT, r"replace POWER"),
+            (LALT, r"replace POWER"), #Normal ALT
         ]
     },    
     {    
@@ -350,73 +351,75 @@ REPLACE_FX_META_QWERTY = [
     {
         REPL_KEYCODE: "1",
         REPLACE: [
-            (LMETA, r"replace F1"),
+            (FN_CTRL, r"replace F1"),
         ]
     },
     {
         REPL_KEYCODE: "2",
         REPLACE: [
-            (LMETA, r"replace F2"),
+            (FN_CTRL, r"replace F2"),
         ]
     },
     {
         REPL_KEYCODE: "3",
         REPLACE: [
-            (LMETA, r"replace F3"),
+            (FN_CTRL, r"replace F3"),
         ]
     },
     {
         REPL_KEYCODE: "4",
         REPLACE: [
-            (LMETA, r"replace F4"),
+            (FN_CTRL, r"replace F4"),
         ]
     },
     {
         REPL_KEYCODE: "5",
         REPLACE: [
             (LMETA, r"replace F5"),
+            (FN_CTRL, r"replace F5"),
         ]
     },
     {
         REPL_KEYCODE: "6",
         REPLACE: [
             (LMETA, r"replace F6"),
+            (FN_CTRL, r"replace F6"),
         ]
     },
     {
         REPL_KEYCODE: "7",
         REPLACE: [
-            (LMETA, r"replace F7"),
+            (FN_CTRL, r"replace F7"),
         ]
     },
     {
         REPL_KEYCODE: "8",
         REPLACE: [
-            (LMETA, r"replace F8"),
+            (FN_CTRL, r"replace F8"),
         ]
     },
     {
         REPL_KEYCODE: "9",
         REPLACE: [
-            (LMETA, r"replace F9"),
+            (FN_CTRL, r"replace F9"),
         ]
     },
     {
         REPL_KEYCODE: "0",
         REPLACE: [
-            (LMETA, r"replace F10"),
+            (FN_CTRL, r"replace F10"),
         ]
     },
     {
         REPL_KEYCODE: "MINUS",
         REPLACE: [
-            (LMETA, r"replace F11"),
+            (FN_CTRL, r"replace F11"),
         ]
     },
     {
         REPL_KEYCODE: "EQUALS",
         REPLACE: [
-            (LMETA, r"replace F12"),
+            (FN_CTRL, r"replace F12"),
         ]
     },
     # ROW 2 ###############################################################
