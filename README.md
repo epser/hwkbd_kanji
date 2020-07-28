@@ -1,4 +1,4 @@
-# F(x) Kanji Mod
+# Fx Kanji Mod
 
 Various keyboard layouts for your F(x)tec Pro1 physical keyboard with `半角/全角漢字(ZENKAKU_HANKAKU)`:
 
