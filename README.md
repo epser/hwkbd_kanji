@@ -26,6 +26,10 @@ The layouts are provided via the Android standard layouts mechanism and are sele
 
 see latest [releases](https://github.com/epser/hwkbd_kanji/releases).
 
+## Documentation
+
+Japanese documentation is [Fx Kanji Mod ドキュメント - eps_r](https://eps-r.hatenablog.com/entry/2020/07/29/fx-kanji-mod-document).
+
 ## Building
 
 Python 3 is required to build.
