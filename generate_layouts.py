@@ -13,26 +13,11 @@ from consts import *
 from qwerty_printed import *
 from qwerty_fx import *
 from qwerty_shift_alias import *
+from qwerty_shift_alias_ext import *
 from qwerty_fn import *
 from qwerty_fn_custom import *
 from qwerty_alt import *
 from qwerty_international import *
-
-
-#
-REMAP_SWAP_ALT_FN = r"""
-# Swap alt and fn
-# Alt is now Fn
-map key 464 ALT_LEFT
-# Fn is now Alt
-map key 56 FUNCTION
-"""
-
-
-SWAP_ALT_FN = [
-    ("lalt", "fn"),
-    ("fn", "lalt")
-]
 
 SWAP_TAB_FIX = [
     {
@@ -89,40 +74,6 @@ GENERATED_LAYOUTS = [
         REPLACE: CLEANUP_TEMPLATE,
     },
     {
-        # Swapping alt and fn for Fx Qwerty
-        INPUT: "pro1_qwerty_us.kcm",
-        OUTPUT: "pro1_qwerty_us_fn_tab_tmp.kcm", 
-        IS_SOURCE_GENERATED: True,               
-        REPLACE: SWAP_ALT_FN,
-        ADD: REMAP_SWAP_ALT_FN
-    },
-    {
-        # Swapping alt and fn for MetaKey
-        INPUT: "metakey_pro1_qwerty_us.kcm",
-        OUTPUT: "metakey_pro1_qwerty_us_fn_tab_tmp.kcm",
-        IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_ALT_FN,
-        ADD: REMAP_SWAP_ALT_FN
-    },
-    {
-        # Fx Qwerty
-        # Somehow modifying the same line twice in the same run does not work.
-        # So we had to take an extra step to patch our TAB
-        INPUT: "pro1_qwerty_us_fn_tab_tmp.kcm",
-        OUTPUT: "pro1_qwerty_us_fn_tab.kcm",
-        IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_TAB_FIX,
-    },
-    {
-        # MetaKey
-        # Somehow modifying the same line twice in the same run does not work.
-        # So we had to take an extra step to patch our TAB
-        INPUT: "metakey_pro1_qwerty_us_fn_tab_tmp.kcm",
-        OUTPUT: "metakey_pro1_qwerty_us_fn_tab.kcm",
-        IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_TAB_FIX,
-    },
-    {
         # Fx Qwerty
         # Process our US template adding shift alias
         # That's enabling the use of the Shift key to access most Fn characters
@@ -142,51 +93,22 @@ GENERATED_LAYOUTS = [
     },
     {
         # Fx Qwerty
-        # Swapping alt and fn
-        INPUT: "pro1_qwerty_us_shift_alias.kcm",
-        OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm", 
+        # Process our US template adding shift alias, and < > to ? /
+        # That's enabling the use of the Shift key to access most Fn characters
+        INPUT: "pro1_qwerty_us_template.kcm",
+        OUTPUT: "pro1_qwerty_us_shift_alias_ext.kcm",
         IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_ALT_FN,
-        ADD: REMAP_SWAP_ALT_FN
+        REPLACE: QWERTY_SHIFT_ALIAS_EXT + CLEANUP_TEMPLATE,
     },
     {
         # MetaKey
-        # Swapping alt and fn
-        INPUT: "metakey_pro1_qwerty_us_shift_alias.kcm",
-        OUTPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
+        # Process our US template adding shift alias, and < > to ? /
+        # That's enabling the use of the Shift key to access most Fn characters
+        INPUT: "metakey_pro1_qwerty_us_template.kcm",
+        OUTPUT: "metakey_pro1_qwerty_us_shift_alias_ext.kcm",
         IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_ALT_FN,
-        ADD: REMAP_SWAP_ALT_FN
+        REPLACE: QWERTY_SHIFT_ALIAS_EXT + CLEANUP_TEMPLATE,
     },
-    {
-        # Fx Qwerty
-        # Somehow modifying the same line twice in the same run does not work.
-        # So we had to take an extra step to patch our TAB
-        INPUT: "pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
-        OUTPUT: "pro1_qwerty_us_shift_alias_fn_tab.kcm",
-        IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_TAB_FIX,
-    },
-    {
-        # MetaKey
-        # Somehow modifying the same line twice in the same run does not work.
-        # So we had to take an extra step to patch our TAB
-        INPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab_tmp.kcm",
-        OUTPUT: "metakey_pro1_qwerty_us_shift_alias_fn_tab.kcm",
-        IS_SOURCE_GENERATED: True,
-        REPLACE: SWAP_TAB_FIX,
-    },
-
-
-    #{
-        # Swap alt and fn modifiers to enable alt+tab task switching using fn hardware key
-    #    INPUT: "pro1_qwerty_international.kcm",
-    #    OUTPUT: "pro1_qwerty_international_swapped.kcm",        
-    #    IS_SOURCE_GENERATED: True,
-    #    REPLACE: USINTL_SWAP_ALT_FN,
-    #    REMOVE_KEYCODES: ["TAB"],                 
-    #    ADD: SWAP_ALT_FN
-    #}    
 ]
 
 def expand_replacement(rule):

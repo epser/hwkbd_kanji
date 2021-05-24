@@ -4,13 +4,11 @@
     <!-- -->
     <string name="pro1_qwerty_us">F(x) Kanji Mod [FxQwerty]</string>
     <string name="pro1_qwerty_us_shift_alias">F(x) Kanji Mod [FxQwerty][記号Shift]</string>
-    <string name="pro1_qwerty_us_fn_tab">F(x) Kanji Mod [FxQwerty][Fn+Tab調整]</string>
-    <string name="pro1_qwerty_us_shift_alias_fn_tab">F(x) Kanji Mod [FxQwerty][記号Shift][Fn+Tab調整]</string>
+    <string name="pro1_qwerty_us_shift_alias_ext">F(x) Kanji Mod [FxQwerty][記号Shift][Attach &lt;&gt; to ?/]</string>
 
     <string name="metakey_pro1_qwerty_us">F(x) Kanji Mod [MetaKey]</string>
     <string name="metakey_pro1_qwerty_us_shift_alias">F(x) Kanji Mod [MetaKey][記号Shift]</string>
-    <string name="metakey_pro1_qwerty_us_fn_tab">F(x) Kanji Mod [MetaKey][Fn+Tab調整]</string>
-    <string name="metakey_pro1_qwerty_us_shift_alias_fn_tab">F(x) Kanji Mod [MetaKey][記号Shift][Fn+Tab調整]</string>
+    <string name="metakey_pro1_qwerty_us_shift_alias_ext">F(x) Kanji Mod [MetaKey][記号Shift][Attach &lt;&gt; to ?/]</string>
 
     <string name="empty_layout">F(x)tec Pro1 Qwerty - Default</string>
 
